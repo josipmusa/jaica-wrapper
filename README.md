@@ -1,9 +1,14 @@
 # JAICA Wrapper
 
-This repo is a thin “wrapper” around the **JAICA backend** and **JAICA frontend** projects.
-It uses **git submodules** plus a single **Docker Compose** file so you can spin up the full stack (frontend + backend + dependencies) with a couple of commands.
+This repository is a **wrapper** that orchestrates the full JAICA stack using Docker Compose.
 
-If you want to contribute to the backend/frontend code, work inside the `backend/` and `frontend/` submodules.
+The actual application code lives in separate repositories and is included here as Git submodules:
+
+- **Backend (FastAPI + AI pipeline)**  
+  👉 https://github.com/josipmusa/jaica
+
+- **Frontend (React + Vite)**  
+  👉 https://github.com/josipmusa/jaica-client
 
 ## What you get
 
